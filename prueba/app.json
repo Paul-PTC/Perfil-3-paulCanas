@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "name": "TV Maze Explorer",
+    "slug": "tv-maze-explorer",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "tvmazeexplorer",
+    "icon": "./assets/master-ball.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.estudiante.tvmazeexplorer",
+      "permissions": [
+        "android.permission.INTERNET"
+      ],
+      "adaptiveIcon": {
+        "backgroundColor": "#16002B",
+        "foregroundImage": "./assets/master-ball.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "bundler": "metro",
+      "favicon": "./assets/master-ball.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-status-bar",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#16002B",
+          "image": "./assets/master-ball.png",
+          "imageWidth": 180,
+          "resizeMode": "contain"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "5cd93aad-82e4-45e7-b19b-2b9454089f29"
+      }
+    }
+  }
+}
